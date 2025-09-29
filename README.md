@@ -69,27 +69,31 @@ Key formulas include:
 ---
 
 ## 📂 Repository Structure
-PowerBI-Superstore-Dashboard/
-│
-├── Dashboard/
-│   └── Analytics Dashboard.pbix      # Interactive Power BI dashboard
-│
-├── Dashboard Image/
-│   └── Analytics_Dashboard.png       # Dashboard screenshot
-│
-├── Dataset/
-│   └── Dataset.xls                    # Source dataset (Orders, People, Returns)
-│
-├── DAX Measures/
-│   └── DAX Measures.md               # Documented DAX formulas and measures
-│
-├── Documentation/
-│   └── Store Dashboard.pdf           # Full project documentation
-│
-├── SQL Queries/
-│   └── Store_Queries.sql             # SQL queries used for metrics and analysis
-│
-└── README.md                         # Project overview and instructions
+1. Dashboard/
+
+      • Analytics Dashboard.pbix – Interactive Power BI dashboard
+
+2. Dashboard Image/
+
+      • Analytics_Dashboard.png – Dashboard screenshot
+
+3. Dataset/
+
+      •Dataset.xls – Source dataset (Orders, People, Returns)
+
+4. DAX Measures/
+
+      • DAX Measures.md – Documented DAX formulas and measures
+
+5. Documentation/
+
+      • Store Dashboard.pdf – Full project documentation
+
+6. SQL Queries/
+
+      • Store_Queries.sql – SQL queries used for metrics and analysis
+
+7. README.md – Project overview and instructions
 
 
 ## 🎯 Project Impact
