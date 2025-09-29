@@ -39,13 +39,17 @@ The visuals provide a **user-friendly, interactive experience**, enabling stakeh
 ---
 
 ## 🌐 Data Sources
-The project uses the **Sample Superstore dataset**, structured into three main tables:
+The project uses the Sample Superstore dataset, structured in the Excel file and enhanced within Power BI:
 
-1. **Orders Table:** Transactional information including order dates, products, quantities, sales, and profits.  
-2. **Returns Table:** Tracks returned orders to calculate return rates and profitability impact.  
-3. **Date Table:** Supports **time intelligence** in DAX for accurate YoY comparisons.
+1. Orders Table (Excel): Contains transactional data including order dates, products, quantities, sales, and profits.
 
-All datasets are included in `Dataset/Dataset.xls` for reproducibility.
+2. Returns Table (Excel): Tracks returned orders to calculate return rates and their impact on profitability.
+
+3. People Table (Excel): Provides date-related fields to support time-based analysis.
+
+4. Date Table (Power BI): A dedicated Date table created in Power BI for time intelligence calculations, including year-over-year comparisons.
+
+All source data is included in Dataset/Dataset.xls, and the Date table is built directly within Power BI for accurate analytics.
 
 ---
 
