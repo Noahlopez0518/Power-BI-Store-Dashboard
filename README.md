@@ -41,13 +41,13 @@ The visuals provide a **user-friendly, interactive experience**, enabling stakeh
 ## 🌐 Data Sources
 The project uses the Sample Superstore dataset, structured in the Excel file and enhanced within Power BI:
 
-1. Orders Table (Excel): Contains transactional data including order dates, products, quantities, sales, and profits.
+1. **Orders Table (Excel)**: Contains transactional data including order dates, products, quantities, sales, and profits.
 
-2. Returns Table (Excel): Tracks returned orders to calculate return rates and their impact on profitability.
+2. **Returns Table (Excel)**: Tracks returned orders to calculate return rates and their impact on profitability.
 
-3. People Table (Excel): Provides date-related fields to support time-based analysis.
+3. **People Table (Excel)**: Provides date-related fields to support time-based analysis.
 
-4. Date Table (Power BI): A dedicated Date table created in Power BI for time intelligence calculations, including year-over-year comparisons.
+4. **Date Table (Power BI)**: A dedicated Date table created in Power BI for time intelligence calculations, including year-over-year comparisons.
 
 All source data is included in Dataset/Dataset.xls, and the Date table is built directly within Power BI for accurate analytics.
 
@@ -69,3 +69,32 @@ Key formulas include:
 ---
 
 ## 📂 Repository Structure
+/PowerBI-Superstore-Dashboard
+│
+├── Dashboard/
+│ └── Analytics Dashboard.pbix # Interactive Power BI dashboard
+├── Dashboard Image/
+│ └── Analytics_Dashboard.png # Dashboard screenshot
+├── Dataset/
+│ └── Dataset.xls # Source dataset
+├── DAX Measures/
+│ └── DAX Measures.md # Documented DAX formulas and measures
+├── Documentation/
+│ └── Store Dashboard.pdf # Full project documentation
+├── SQL Queries/
+│ └── Store_Queries.sql # SQL queries used for metrics and analysis
+└── README.md # Project overview
+
+## 🎯 Project Impact
+- Demonstrates **advanced data analytics skills**: data cleaning, modeling, SQL, DAX, and visualization.  
+- Provides actionable insights into **sales, profits, and returns**, enabling informed business decisions.  
+- Serves as a **reusable template** for retail performance dashboards, including KPIs, YoY comparisons, and regional/segment analysis.  
+- Highlights **self-directed problem-solving**, dashboard storytelling, and professional analytics workflow.
+
+## 🖱️ How to Use
+1. Open `Dashboard/Analytics Dashboard.pbix` in **Power BI Desktop**.  
+2. Use **slicers** to filter by Segment, Region, Customer, or Date Range.  
+3. Explore **KPIs, trends, product and segment performance, and regional insights**.  
+4. Refer to `DAX Measures/DAX Measures.md` for the **formulas used in calculations**.  
+5. Optional: Use `SQL Queries/Store_Queries.sql` to extract, aggregate, or validate data.  
+6. Use bookmarks and visual drill-through to **interactively navigate the dashboard**.
